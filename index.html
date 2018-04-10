@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="description" content="Matrix, the Center for Digital Humanities and Social Sciences at Michigan State University, is devoted to the application of new technologies for teaching, research, and outreach. As one of the premier digital humanities centers in the United States, Matrix works with museums, libraries, researchers, professors and archives in order to design and develop digital environments that display data in unique, compelling and interactive means that enhance teaching and learning experiences.">
+  <meta property="og:description" content="Matrix, the Center for Digital Humanities and Social Sciences at Michigan State University, is devoted to the application of new technologies for teaching, research, and outreach. As one of the premier digital humanities centers in the United States, Matrix works with museums, libraries, researchers, professors and archives in order to design and develop digital environments that display data in unique, compelling and interactive means that enhance teaching and learning experiences.">
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="favicon.ico" rel="shortcut icon">
+  <title>Front End Test for MSU Matrix</title>
+  <meta property="og:title" content="Front End Test" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://suuuth.github.io/MI-449-SS18-740-html-meta-elements-_f2DoK/" />
+  <meta name="geo.region" content="US-MI">
+  <meta name="geo.placename" content="East Lansing">
+  <meta name="geo.position" content="42.734163;-84.4828162">
+  <meta name="ICBM" content="42.734163, -84.4828162">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="search">
+      <img src="assets/masthead-helmet.svg" alt="masthead-helmet">
+      <div class="searchBox">
+        <input type="text" class="searchTerm" placeholder="Search...">
+      </div>
+    </div>
+    <div class="nav">
+      <img src="assets/Logo.svg" alt="logo">
+      <a href="shirt-page" class="mainNav">Link Name</a>
+      <a href="shirt-page" class="mainNav">Link Name</a>
+      <a href="shirt-page" class="mainNav">Link Name</a>
+      <div class="dropdown">
+        Link Name <img src="assets/arrow-3.svg" alt="arrow 3">
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+            <li><a href="shirt-page" class="dropNav">Link Name</a></li>
+          </ul>
+        </div>
+      </div>
+      <img src="assets/Hamburger.svg" alt="Hamburger" class="hamburger" onclick="showBurgerContent()">
+      <div id="hamburgerContent">
+        <ul>
+          <li><a href="#" class="dropNav">Link Name</a></li>
+          <li><a href="#" class="dropNav">Link Name</a></li>
+          <li><a href="#" class="dropNav">Link Name</a></li>
+        </ul>
+        <div class="mobileDropdown">Link Name <img src="assets/arrow-3.svg" alt="arrow 3" class="mobileDropArrow">
+        </div>
+        <ul class="mobileDropContent">
+          <li><a href="#">Link Name</a></li>
+          <li><a href="#">Link Name</a></li>
+          <li><a href="#">Link Name</a></li>
+        </ul>
+        <hr>
+        <div class="mobileSearchBox">
+          <input type="search" class="mobileSearch" placeholder="Search">
+        </div>
+      </div>
+    </div>
+    <div class="headerimg">
+      <img property="og:image" src="assets/Mountains.png" alt="heading image">
+      <div>
+        <h1>This is a Header!<br>
+          <small>
+            This is a subheader! It goes right underneath!
+          </small>
+        </h1>
+      </div>
+    </div>
+    <div class="mainArticle">
+      <div>
+        <p>Lorem ipsum dolor sit amet, lacinia porttitor lectus pellentesque justo, egestas condimentum, nec vehicula vestibulum suscipit id et eleifend, justo cras in eget in vehicula. Viverra eu orci laoreet eget facilisis elit. Arcu eleifend integer leo sed. Netus mauris tempor, vestibulum dapibus pretium nullam pellentesque suspendisse metus, porta pellentesque eget amet, per ante aliquam. Suspendisse a, reiciendis purus et ut placerat lectus, libero sed tincidunt aenean potenti nec nec. Nibh deserunt ipsum, mauris aenean.</p>
+        <button>Learn More</button>
+      </div>
+    </div>
+    <div class="slider">
+      <img class="sliderPlaceholder" src="assets/sliderPlaceholder1.jpg" alt="placeholder img">
+      <img class="sliderPlaceholder" src="assets/sliderPlaceholder2.jpg" alt="placeholder img">
+      <img class="sliderPlaceholder" src="assets/sliderPlaceholder3.jpg" alt="placeholder img">
+      <img class="sliderPlaceholder" src="assets/sliderPlaceholder4.jpg" alt="placeholder img">
+      <img class="sliderPlaceholder" src="assets/sliderPlaceholder5.jpg" alt="placeholder img">
+      <div class="sliderDots">
+        <span class="dots" onclick="currentDiv(1)"></span>
+        <span class="dots" onclick="currentDiv(2)"></span>
+        <span class="dots" onclick="currentDiv(3)"></span>
+        <span class="dots" onclick="currentDiv(4)"></span>
+        <span class="dots" onclick="currentDiv(5)"></span>
+      </div>
+      <div class="leftbtn" onclick="plusDivs(-1)"><img src="assets/arrow.svg" alt="view previous button"></div>
+      <div class="sliderControl">
+        <p>Slide Title - This is an Image Slider</p>
+      </div>
+      <div class="rightbtn" onclick="plusDivs(1)"><img src="assets/arrow-2.svg" alt="view next button"></div>
+    </div>
+    <div class="featuredProjects">
+      <div>
+        Featured Research Projects
+        <div class="projects">
+          <div class="projectRow">
+            <div class="project">
+              <img src="assets/placeholder.jpg" alt="placeholder">
+              <p>What America Ate is an interactive website and online archive about food in the Great Depression, funded by the National Endowment for the Humanities</p>
+              <div>View Project</div>
+            </div>
+            <div class="project">
+              <img src="assets/placeholder.jpg" alt="placeholder image">
+              <p>The African Online Digital Library is an open access digital library of African cultural heritage materials in collaboration with museums, archives, scholars, around the world.</p>
+              <div>View Project</div>
+            </div>
+            <div class="project">
+              <img src="assets/placeholder.jpg" alt="placeholder image">
+              <p>mbira is a platform to build, serve, and manage native and web-based mobile heritage experiences.</p>
+              <div>View Project</div>
+            </div>
+            <div class="project hide">
+              <img src="assets/placeholder.jpg" alt="placeholder image">
+              <p>What America Ate is an interactive website and online archive about food in the Great Depression, funded by the National Endowment for the Humanities</p>
+              <div>View Project</div>
+            </div>
+          </div>
+          <div class="projectRow">
+            <div class="project fix">
+              <img src="assets/placeholder.jpg" alt="placeholder image">
+              <p>What America Ate is an interactive website and online archive about food in the Great Depression, funded by the National Endowment for the Humanities</p>
+              <div>View Project</div>
+            </div>
+            <div class="project">
+              <img src="assets/placeholder.jpg" alt="placeholder image">
+              <p>The African Online Digital Library is an open access digital library of African cultural heritage materials in collaboration with museums, archives, scholars, around the world.</p>
+              <div>View Project</div>
+            </div>
+            <div class="project">
+              <img src="assets/placeholder.jpg" alt="placeholder image">
+              <p>mbira is a platform to build, serve, and manage native and web-based mobile heritage experiences.</p>
+              <div>View Project</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footerWrap">
+        <div>
+          <a href="#" class="contact">Contact</a>
+          <ul class="socBtn">
+            <li><a href="#"><img src="assets/twitter.svg" alt="twitter" class="social"/></a></li>
+            <li><a href="#"><img src="assets/facebook.svg" alt="facebook" class="social"/></a></li>
+            <li><a href="#"><span class="circle2"></span>&nbsp;<span class="circle2"></span></a></li>
+            <li><a href="#"><img src="assets/youtube.svg" alt="youtube" class="social"/></a></li>
+            <li><a href="#"><img src="assets/rss.svg" alt="rss" class="social"/></a></li>
+          </ul>
+        </div>
+        <div class="footerSection2">
+          <div class="footerImg">
+            <img src="assets/MichiganStateUniversity.svg" alt="Michigan State University">
+          </div>
+          <div class="footerInfo">
+            <p class="firstline">Call us: <strong>(517) XXX-XXXX</strong> | Contact Information | Site Map | Privacy Statement | Site Accessibility</p>
+            <p class="lastline">Call MSU <strong>(517) 355-1855</strong> | Visit <strong>msu.edu</strong> | MSU is an affirmative-action, equal-opportunity employer.
+              <br>
+              <strong>SPARTANS WILL</strong> | c Michigan State University Board of Trustees</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+
+</html>
