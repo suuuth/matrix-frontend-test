@@ -98,6 +98,7 @@ body {
 
 #hamburgerContent {
     background: #8c8c8c;
+	display: none;
     height: 1000px;
     width: 225px;
     position: absolute;
