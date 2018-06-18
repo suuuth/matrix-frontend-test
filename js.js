@@ -28,9 +28,15 @@ function  showBurgerContent(){
   if (z.style.opacity == 0) {
     z.style.right = "0px";
     z.style.opacity = "1";
+	setTimeout(function(){
+		z.style.display = "block";
+	}, 200)
   } else {
     z.style.right = "-225px";
     z.style.opacity = "0";
+	setTimeout(function(){
+		z.style.display = "none";
+	}, 200)
   }
 }
 
