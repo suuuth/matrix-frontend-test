@@ -26,10 +26,10 @@ function showDivs(n) {
 function  showBurgerContent(){
   var z = document.getElementById("hamburgerContent");
   if (z.style.opacity == 0) {
-    z.style.right = "0px";
-    z.style.opacity = "1";
+	z.style.display = "block";
 	setTimeout(function(){
-		z.style.display = "block";
+		z.style.right = "0px";
+		z.style.opacity = "1";
 	}, 200)
   } else {
     z.style.right = "-225px";
